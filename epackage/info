@@ -4,8 +4,10 @@ License: GPL-3+
 License-Text: <only for type Custom; full text or URL to page in http://spdx.org/licenses/>
 Depends: emacs (>= 22)
 Status: unstable
+Compat:
 Archive: ELPA/GNU
 Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
 Upstream: Toby Cubitt <toby-undo-tree@dr-qubit.org>
 Upstream-Bugs: Toby Cubitt <toby-undo-tree@dr-qubit.org>
 Vcs-Type: git
