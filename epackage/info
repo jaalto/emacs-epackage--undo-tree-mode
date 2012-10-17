@@ -13,7 +13,7 @@ Vcs-Url: http://www.dr-qubit.org/git/undo-tree.git
 Homepage: http://www.dr-qubit.org/emacs.php
 Wiki: http://www.emacswiki.org/emacs/CategoryUndo
 Commentary:
-Description: Treat undo history as a tree
+Description: treat undo history as a tree
  Undo system based on tree of changes. This simple idea allows the more
  intuitive behaviour of the standard undo/redo system to be combined with
  the power of never losing any history. An added side bonus is that undo
