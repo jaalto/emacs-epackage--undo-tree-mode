@@ -1,0 +1,35 @@
+Package: undo-tree-mode
+Section: extensions
+License: GPL-3+
+License-Text: <only for type Custom; full text or URL to page in http://spdx.org/licenses/>
+Depends: emacs (>= 22)
+Status: unstable
+Archive: ELPA/GNU
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Upstream: Toby Cubitt <toby-undo-tree@dr-qubit.org>
+Upstream-Bugs: Toby Cubitt <toby-undo-tree@dr-qubit.org>
+Vcs-Type: git
+Vcs-Url: http://www.dr-qubit.org/git/undo-tree.git
+Homepage: http://www.dr-qubit.org/emacs.php
+Wiki: http://www.emacswiki.org/emacs/CategoryUndo
+Commentary:
+Description: Treat undo history as a tree
+ Undo system based on tree of changes. This simple idea allows the more
+ intuitive behaviour of the standard undo/redo system to be combined with
+ the power of never losing any history. An added side bonus is that undo
+ history can in some cases be stored more efficiently, allowing more
+ changes to accumulate before Emacs starts discarding history. Includes
+ a undo visualizer buffer from where you can control the undo branches.
+ .
+ See commmands:
+ .
+    undo-tree-mode
+    global-undo-tree-mode
+    undo-tree-undo
+    undo-tree-redo
+    undo-tree-switch-branch
+    undo-tree-visualize
+    undo-tree-save-state-to-register
+    undo-tree-restore-state-from-register
+ .
+ Note: Code is actively developed.
