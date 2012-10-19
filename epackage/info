@@ -33,5 +33,4 @@ Description: treat undo history as a tree
     undo-tree-visualize
     undo-tree-save-state-to-register
     undo-tree-restore-state-from-register
- .
- Note: Code is actively developed.
+
