@@ -1,2 +1,3 @@
-;; Template. Add remove-hook etc calls here.
-(error "undo-tree-mode-epackage-uninstall.el is not a configuration file.")
+(if (fboundp 'global-undo-tree-mode)
+    (global-undo-tree-mode -1))
+(provide 'undo-tree-mode-epackage-uninstall)
